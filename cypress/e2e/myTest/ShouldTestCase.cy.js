@@ -1,4 +1,4 @@
-describe('Checking Click Menu', () => {
+describe('Checking Text Menu', () => {
     it('Проверка текста меню на корректность', () => {
         cy.visit('https://www.jetbrains.com/ru-ru/')
         cy.get('.main-menu-item', {timeout: 10000}).first().should('contain', 'Разработчикам')
