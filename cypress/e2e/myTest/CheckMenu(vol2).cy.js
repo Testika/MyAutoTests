@@ -1,5 +1,5 @@
 describe('Checking Click Menu', () => {
-    it('Проверка кликабельности строки меню', () => {
+    it('Проверка кликабельности строки меню(вариант 2)', () => {
         cy.visit('https://www.jetbrains.com/ru-ru/')
         //cy.get('.ProductCard', {timeout: 5000}).then(itemd => itemd[2]).click()
         cy.get('.main-menu-item', {timeout: 10000}).first().click().wait(2000)
