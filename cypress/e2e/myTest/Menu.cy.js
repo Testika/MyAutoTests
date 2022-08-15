@@ -1,4 +1,4 @@
-describe('Checking JetBrains Click Menu', () => {
+describe('Checking JetBrains Menu', () => {
     beforeEach(() => {
         cy.visit('https://www.jetbrains.com/ru-ru/')
     })
