@@ -3,6 +3,7 @@ describe('Checking JetBrains Click Menu', () => {
         cy.visit('https://www.jetbrains.com/ru-ru/')
     })
         it('Checking click "Разработчикам"', () => {
+
             //cy.get('.ProductCard', {timeout: 5000}).then(itemd => itemd[2]).click()
             cy.get('.main-menu-item', {timeout: 10000}).first().click().wait(2000)
             cy.screenshot('ForDevelopers')
