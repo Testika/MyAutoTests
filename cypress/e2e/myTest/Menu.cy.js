@@ -45,7 +45,7 @@ describe('Checking JetBrains Menu', () => {
            cy.get('[data-test="site-header-cart-action"]').click().wait(2000)
        })
 
-       it('Checking click "Язык', () => {
+       it('Checking click "Язык"', () => {
            cy.get('.site-header-actions__action').then(itemd => itemd[3]).click().wait(5000)
            cy.get('body').click().wait(1000)
        })
