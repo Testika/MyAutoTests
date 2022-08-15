@@ -1,4 +1,4 @@
-describe('Checking JetBrains Click Menu', () => {
+describe('Checking Click Menu', () => {
     it('Проверка кликабельности строки меню', () => {
         cy.visit('https://www.jetbrains.com/ru-ru/')
         //cy.get('.ProductCard', {timeout: 5000}).then(itemd => itemd[2]).click()
