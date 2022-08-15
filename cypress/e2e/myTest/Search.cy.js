@@ -4,7 +4,7 @@ describe('SearchMenu', () => {
     })
         it('Checking search', () => {
             cy.get('[data-test="site-header-search-action"]').click().wait(2000)
-            cy.get('[data-hj-whitelist="true"]').click().type('12345')
+            cy.get('[data-hj-whitelist="true"]').click().type('1234567')
             cy.get('header').click()
         })
 })
