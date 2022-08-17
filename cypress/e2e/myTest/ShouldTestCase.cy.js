@@ -9,4 +9,5 @@ describe('Checking Text Menu', () => {
         cy.get('.main-menu-item').then(itemd => itemd[5]).should('contain', 'Магазин')
     })
 })
+//This test is checking text value
 

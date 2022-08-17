@@ -4,4 +4,5 @@ describe('Checking Count', () => {
         cy.get('.main-menu-item').should('have.length', 6)
     })
 })
+//This test is checking number of text menu
 
