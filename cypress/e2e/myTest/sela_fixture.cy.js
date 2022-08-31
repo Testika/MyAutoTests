@@ -17,5 +17,6 @@ describe('UseFixture', () => {
             cy.get('.digi-search-form__submit').should('be.visible').click()
             cy.get(':nth-child(3) > .digi-product__image-wrapper > .digi-product__image').should('be.visible').click()
             cy.get('.digi-product__image-wrapper').eq(3).should('be.visible').click()
+        //to be continued
         })
 })
