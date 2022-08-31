@@ -1,4 +1,4 @@
-describe('UseFixture', () => {
+describe('UseFixtureSela', () => {
     before('UseFixture',function (){
         cy.fixture('example').then(function(data){
             this.data=data
